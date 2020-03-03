@@ -3,191 +3,144 @@
 <head>
     <meta charset="utf-8">
 </head>
-<body>
-<style>
-    @charset "gbk";
-    /* CSS Document */
-    .tabtop13 {
+<style type="text/css">
+    @charset "utf-8";
+    /*(发票缴款单尺寸固定A4纸大小：210mm 297mm,对应的像素：794px1123px*/
+    /*所以 1mm = 3.78px*/
+    .tab_content {
         margin-top: 20px;
     }
-    .tabtop13 td{
-        background-color:#ffffff;
-        height:50px;
-        line-height:150%;
+    .biaoti {
+        font-size: 35px;
     }
-    .font-center{ text-align:center}
-    .biaoti{
-        font-size: 28px;
+    table {
+        width: 794px;
+        max-width: 794px;
+        margin: 0 auto;
+        font-family: verdana, arial, sans-serif;
+        color: #333333;
+        border: 1px #666666;
+        border-collapse: collapse;
+        overflow: wrap;
     }
-    .titfont {
-        font-size: 16px;
-        font-weight: bold;
-    }
-    td{
+    table.tab_content th, table.tab_content td {
+        padding: 8px;
+        border: 1px solid #666666;
+        background-color: #ffffff;
+        word-break: break-all;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: normal;
         height: 30px;
+        overflow: wrap;/*超过宽度自动换行，必须要加这个*/
+        font-size: 22px;
+        /*text-align: center;*/
+    }
+    .font-center {
+        text-align: center;
     }
 </style>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+<body>
+<table style="margin-bottom: 35px;">
+    <tbody>
     <tr>
-        <td align="center" class="biaoti" height="60">目录</td>
+        <td align="center" class="biaoti" height="60">title</td>
     </tr>
+    </tbody>
 </table>
+<div>11111111</div>
+<pagebreak><!--换页标记-->
 
-<table width="100%" border="1" cellspacing="0" cellpadding="0" bgcolor="#cccccc" class="tabtop13" align="center">
+<table class="tab_content">
+    <tbody>
     <tr>
-        <td nowrap="nowrap" width="8%" class="btbg font-center titfont">序号</td>
-        <td nowrap="nowrap" class="btbg font-center titfont">材料名称</td>
-        <td nowrap="nowrap" class="btbg font-center titfont">文号</td>
-        <td nowrap="nowrap" class="btbg font-center titfont">页号</td>
-        <td nowrap="nowrap" width="10%" class="btbg font-center titfont">备注</td>
+        <td colspan="4" class="font-center">11111</td>
     </tr>
     <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
     </tr>
     <tr>
-        <td nowrap="nowrap" colspan="5" class="btbg font-center titfont">正卷</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
     </tr>
     <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
     </tr>
     <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
     </tr>
     <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
     </tr>
     <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
     </tr>
     <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
     </tr>
     <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
+        <td colspan="1" class="font-center">22222</td>
+        <td colspan="1" class="font-center">22222</td>
+        <td colspan="1" class="font-center">22222</td>
+        <td colspan="1" class="font-center">22222</td>
     </tr>
     <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
     </tr>
     <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
     </tr>
     <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
     </tr>
     <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
     </tr>
     <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
     </tr>
     <tr>
-        <td nowrap="nowrap" colspan="5" class="btbg font-center titfont">副卷</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
+        <td colspan="1" class="font-center">11111</td>
     </tr>
-    <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-    </tr>
-    <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-    </tr>
-    <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-    </tr>
-    <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-    </tr>
-    <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-    </tr>
-    <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-    </tr>
-    <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-    </tr>
-    <tr>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-        <td nowrap="nowrap" class="btbg font-center titfont"></td>
-    </tr>
-
+    </tbody>
 </table>
 </body>
 </html>
